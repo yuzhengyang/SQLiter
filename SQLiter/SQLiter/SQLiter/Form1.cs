@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -19,13 +20,33 @@ namespace SQLiter
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if ("1" == "1")
+            Print("更新 Polycom Sqlite登录信息库");
+            string connStr = "Data Source=" + AppDomain.CurrentDomain.BaseDirectory + @"RPD.s3db";
+            string sql = string.Format("select value from PreferenceTable where key='CMA_SERVER_ADDRESS'");
+            using (SQLiteConnection connection = new SQLiteConnection(connStr))
             {
-                for (int i = 0; i < 100; i++)
+                connection.Open();
+                using (SQLiteCommand cmd = new SQLiteCommand(connection))
                 {
-
+                    try
+                    {
+                        cmd.CommandText = sql;
+                        SQLiteDataReader sdr = cmd.ExecuteReader();
+                    }
+                    catch (SQLiteException ex) { }
                 }
+                connection.Close();
             }
+
+            Print("");
+        }
+
+        public void Print(string s)
+        {
+            BeginInvoke(new Action(() =>
+            {
+                TbTxt.AppendText(s + Environment.NewLine);
+            }));
         }
     }
 }

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteLinqTest", "SqliteLinqTest\SqliteLinqTest.csproj", "{DBC23D8B-F58B-4D11-BA74-B1EAB39723CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{348CD94C-02B1-4D00-B9AE-8ABD2FFE2186}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC23D8B-F58B-4D11-BA74-B1EAB39723CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC23D8B-F58B-4D11-BA74-B1EAB39723CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC23D8B-F58B-4D11-BA74-B1EAB39723CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC23D8B-F58B-4D11-BA74-B1EAB39723CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
