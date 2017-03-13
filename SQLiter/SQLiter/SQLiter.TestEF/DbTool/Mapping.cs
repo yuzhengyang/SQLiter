@@ -11,7 +11,6 @@ namespace SQLiter.TestEF.DbTool
 {
     public class StudentMap : EntityTypeConfiguration<Student>
     {
-        /?
         public StudentMap()
         {
             //this.Property(o => o.Id).HasColumnAnnotation("Index", new IndexAnnotation(new IndexAttribute() { IsUnique = true }));

@@ -39,6 +39,8 @@ namespace SQLiter.TestEF.DbTool
         public string Id { get; set; }
         public string Number { get; set; }
         public string Address { get; set; }
+        public int Size { get; set; }
+        public DateTime CreateTime { get; set; }
         public virtual List<Student> Students { get; set; }
 
         public Room()
