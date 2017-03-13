@@ -26,7 +26,7 @@ namespace SQLiter.TestEF
             {
                 try
                 {
-                    Room r = new Room { Number = "501", Address = "Road 1", Size = 10, CreateTime = DateTime.Now };
+                    Room r = new Room { Number = "501", Address = "Road 1", Size = 10 };
                     IdCard i = new IdCard { IdNumber = "1001011", Desc = "XXXX学院", Type = "学生证" };
                     Student s = new Student { Name = "张三", Birthday = DateTime.Now };
                     db.Set<Room>().Add(r);

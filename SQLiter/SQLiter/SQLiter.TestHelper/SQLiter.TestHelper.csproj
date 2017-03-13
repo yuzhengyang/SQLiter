@@ -69,6 +69,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLiteHelper.cs" />
+    <Compile Include="TestEF\NorthwindContext.cs" />
+    <Compile Include="what\DbHelperSQLite.cs" />
+    <Compile Include="what\IMDBAccess.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

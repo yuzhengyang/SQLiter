@@ -5,10 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiter", "SQLiter\SQLiter.csproj", "{86569207-5004-4901-9E16-669AEBCBF271}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiter.TestHelper", "SQLiter.TestHelper\SQLiter.TestHelper.csproj", "{AE8967AA-529B-411F-8626-960B1EF69365}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiter.TestEF", "SQLiter.TestEF\SQLiter.TestEF.csproj", "{ADAC89B5-30B7-49DC-9AE2-E6A8F8D84C98}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,22 +21,6 @@ Global
 		{86569207-5004-4901-9E16-669AEBCBF271}.Release|Any CPU.Build.0 = Release|Any CPU
 		{86569207-5004-4901-9E16-669AEBCBF271}.Release|x86.ActiveCfg = Release|Any CPU
 		{86569207-5004-4901-9E16-669AEBCBF271}.Release|x86.Build.0 = Release|Any CPU
-		{AE8967AA-529B-411F-8626-960B1EF69365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE8967AA-529B-411F-8626-960B1EF69365}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE8967AA-529B-411F-8626-960B1EF69365}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{AE8967AA-529B-411F-8626-960B1EF69365}.Debug|x86.Build.0 = Debug|Any CPU
-		{AE8967AA-529B-411F-8626-960B1EF69365}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE8967AA-529B-411F-8626-960B1EF69365}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE8967AA-529B-411F-8626-960B1EF69365}.Release|x86.ActiveCfg = Release|Any CPU
-		{AE8967AA-529B-411F-8626-960B1EF69365}.Release|x86.Build.0 = Release|Any CPU
-		{ADAC89B5-30B7-49DC-9AE2-E6A8F8D84C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADAC89B5-30B7-49DC-9AE2-E6A8F8D84C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADAC89B5-30B7-49DC-9AE2-E6A8F8D84C98}.Debug|x86.ActiveCfg = Debug|x86
-		{ADAC89B5-30B7-49DC-9AE2-E6A8F8D84C98}.Debug|x86.Build.0 = Debug|x86
-		{ADAC89B5-30B7-49DC-9AE2-E6A8F8D84C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADAC89B5-30B7-49DC-9AE2-E6A8F8D84C98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ADAC89B5-30B7-49DC-9AE2-E6A8F8D84C98}.Release|x86.ActiveCfg = Release|x86
-		{ADAC89B5-30B7-49DC-9AE2-E6A8F8D84C98}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

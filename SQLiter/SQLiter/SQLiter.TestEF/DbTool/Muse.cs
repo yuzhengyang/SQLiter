@@ -11,14 +11,14 @@ namespace SQLiter.TestEF.DbTool
         public Muse() : base("DefaultConnection")
         {
             //? 允许丢失数据的更新表
-            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<Muse, Configuration>());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<Muse, Configuration>());
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             modelBuilder.Configurations.AddFromAssembly(typeof(Muse).Assembly);
 #if DEBUG
-            //Database.SetInitializer(new MyDbInitializer(Database.Connection.ConnectionString, modelBuilder));
+            //Database.SetInitializer(new MyDbInitializer(Database.Connection.ConnectionString, modelBuilder));//每次都会创建新数据库表
 #endif
         }
     }
